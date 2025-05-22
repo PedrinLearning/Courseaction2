@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites name="vitest tests" tests="2" failures="2" errors="0" time="0">
+    <testsuite name="src/App.test.jsx" timestamp="2025-05-22T15:03:58.401Z" hostname="nascimento" tests="1" failures="1" errors="0" skipped="0" time="0">
+        <testcase classname="src/App.test.jsx" name="src/App.test.jsx" time="0">
+            <failure message="@vitejs/plugin-react can&apos;t detect preamble. Something is wrong. See https://github.com/vitejs/vite-plugin-react/pull/11#discussion_r430879201" type="Error">
+Error: @vitejs/plugin-react can&apos;t detect preamble. Something is wrong. See https://github.com/vitejs/vite-plugin-react/pull/11#discussion_r430879201
+ ❯ src/components/HelpBox.jsx:7:11
+ ❯ src/components/HelpArea.jsx:1:1
+            </failure>
+        </testcase>
+    </testsuite>
+    <testsuite name="src/components/MainContent.test.jsx" timestamp="2025-05-22T15:03:58.418Z" hostname="nascimento" tests="1" failures="1" errors="0" skipped="0" time="0">
+        <testcase classname="src/components/MainContent.test.jsx" name="src/components/MainContent.test.jsx" time="0">
+            <failure message="@vitejs/plugin-react can&apos;t detect preamble. Something is wrong. See https://github.com/vitejs/vite-plugin-react/pull/11#discussion_r430879201" type="Error">
+Error: @vitejs/plugin-react can&apos;t detect preamble. Something is wrong. See https://github.com/vitejs/vite-plugin-react/pull/11#discussion_r430879201
+ ❯ src/components/HelpBox.jsx:7:11
+ ❯ src/components/HelpArea.jsx:1:1
+            </failure>
+        </testcase>
+    </testsuite>
+</testsuites>
