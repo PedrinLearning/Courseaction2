@@ -10,7 +10,7 @@ jobs:
       - name: Run tests
         run: |
           echo "Executando testes da aplicação JSX..."
-          # exit 1  # Descomente para testar falha
+           exit 1 
           
       # JWT para criar uma issue se falhar
       - name: Generate Token
