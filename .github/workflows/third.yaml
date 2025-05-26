@@ -1,5 +1,5 @@
 name: Simple Test with JWT
-on: [push]
+#on: [push]
 
 jobs:
   test:
